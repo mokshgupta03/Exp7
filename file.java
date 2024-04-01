@@ -2,16 +2,16 @@
 
 
 public class rectangle {
-    double a,b;
+    double a1,b1;
      rectangle(double length, double width)
     {
-        a=length;
-        b=width;
+        a1=length;
+        b1=width;
     }
 
     String check()
     {
-        if(a==b)
+        if(a1==b1)
         {
            return "Square";
         }
